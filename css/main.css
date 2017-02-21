@@ -20,7 +20,59 @@ body {
   margin: 0;
 }
 
-.logo {
+.mug {
+  width: 77%;
+  position: fixed;
+  right: 0;
+  top: 10%;
+  z-index: 0;
+}
+
+.pretty {
   position: absolute;
-  left: 0;
+  left: .7em;
+  top: 1em;
+  width: 7em;
+}
+
+.ugly {
+  position: absolute;
+  right: .5em;
+  top: 1em;
+  width: 5.5em;
+}
+
+.mugs {
+  position: absolute;
+  left: .7em;
+  bottom: .7em;
+  width: 7em;
+}
+
+.three-mugs {
+  width: 77%;
+  position: relative;
+  display: block;
+  margin: auto;
+  z-index: 1000;
+  margin-top: 20%;
+}
+
+.description {
+  position: fixed;
+  bottom: 1em;
+  right: 2em;
+  font-size: 0.8em;
+  font-family: helvetica;
+  font-weight: bold;
+  max-width: 50%;
+  line-height: 2;
+  color: #0000ff;
+}
+
+.mark {
+  position: absolute;
+  right: 1.7em;
+  bottom: 1.7em;
+  width: 1em;
 }
